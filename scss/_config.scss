@@ -1,0 +1,58 @@
+//color
+$verydarkmagenta: hsl(300, 43%, 22%);
+$softpink: hsl(333, 80%, 67%);
+$darkgrayishmagenta: hsl(303, 10%, 53%);
+$lightgrayishmagenta: hsl(300, 24%, 96%);
+$white: hsl(0, 0%, 100%);
+
+
+//font
+$font-main: 'League Spartan', sans-serif;
+
+
+//config
+body {
+    font-family: $font-main;
+    font-size: 15px;
+}
+
+.text {
+    h1 {
+        font-weight: 900;
+        line-height: 1.1;
+        font-size: 40px;
+        color: $verydarkmagenta;
+    }
+
+    p {
+        font-weight: 400;
+        line-height: 1.2;
+        color: $darkgrayishmagenta;
+    }
+}
+
+.rating {
+    p {
+        color: $verydarkmagenta;
+        font-weight: 700;
+    }
+}
+
+.testimonial {
+    &-name {
+        color: $white;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    &-status {
+        color: $softpink;
+        font-size: 15px;
+        line-height: 1.2;
+    }
+
+    &-comment {
+        color: $white;
+        line-height: 1.4;
+    }
+}
